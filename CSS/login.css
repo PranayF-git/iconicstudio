@@ -1,0 +1,13 @@
+.container{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form h2{
+    color: rgb(16, 225, 16);
+}
+.btn-signup{
+    background-color: rgb(16, 225, 16);
+    font-weight: bold;
+}
