@@ -63,7 +63,7 @@ const playMusic = (track, pause = false) => {
   currentSong.src = `/${currFolder}/` + track;
   if (!pause) {
     currentSong.play();
-    play.src = "/images/pause.svg";
+    play.src = "/Images/pause.svg";
   }
   document.querySelector(".songInfo").innerHTML = decodeURI(track);
   document.querySelector(".songTime").innerHTML = "00:00/00:00";
@@ -129,10 +129,10 @@ async function main() {
 play.addEventListener("click", () => {
   if (currentSong.paused) {
     currentSong.play();
-    play.src = "/images/pause.svg";
+    play.src = "/Images/pause.svg";
   } else {
     currentSong.pause();
-    play.src = "/images/play.svg";
+    play.src = "/Images/play.svg";
   }
 });
 
